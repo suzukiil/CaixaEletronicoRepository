@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<title>formConta</title>
+</head>
+
+<body>
+
+</body>
+	<div class="container"> 
+	<h3>Criar nova conta no banco</h3>
+
+	<form action="/conta" method="post">
+
+		<div>
+			<label>Núemro:</label>
+			<input type="text" name="numero">
+		</div>
+		<div>
+			<label>Senha:</label>
+			<input type="password" name="senha">
+		</div>
+		<div>
+			<button class="waves-effect waves-teal btn-flat" type="submit">Salvar</button>
+			<button class="waves-effect waves-teal btn-flat" type="reset">Limpar</button>
+		</div>
+		<h3>entrar em uma conta já exitente?</h3>
+			<button class="waves-effect waves-teal btn-flat" type="button"><a href="/conta/form">Entrar</a></button>
+	</div>	
+
+</body>
+
+</html>

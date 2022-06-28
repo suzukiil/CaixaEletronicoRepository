@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<title>formConta</title>
+</head>
+
+<body>
+
+</body>
+	<div class="container"> 
+	<h1>Escolha sua conta do banco</h1>
+
+	<form action="/home" method="get">
+
+		<div>
+			<label>Núemro:</label>
+			<input type="text" name="numero">
+		</div>
+		<div>
+			<label>Senha:</label>
+			<input type="password" name="senha">
+		</div>
+		<div>
+			<button class="waves-effect waves-teal btn-flat" type="btn"><a href="/home/5">ENTRAR</a></button>
+			<button class="waves-effect waves-teal btn-flat" type="reset">Limpar</button>
+		</div>
+		<h1>Deseja criar uma conta no banco?</h1>
+			<button class="waves-effect waves-teal btn-flat" type="button"><a href="/conta/form/novo">Criar conta</a></button>
+	</div>
+</body>
+
+</html>

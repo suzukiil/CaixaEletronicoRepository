@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<title>formConta</title>
+</head>
+
+<body>
+</body>
+	<div class="container"> 
+		<h3>Criar Conta</h3>
+
+	<form action="/usuario/registro/sucesso" method="post">
+
+		<div class="col s12">
+			<label>Login:</label>
+			<input type="text" name="login">
+		</div>
+		<div class="col s12">
+			<label>Senha:</label>
+			<input type="password" name="senha">
+		</div>
+		<div>
+			<button class="waves-effect waves-teal btn-flat" type="submit">Salvar</button>
+			<button class="waves-effect waves-teal btn-flat" type="reset">Limpar</button>
+		</div>
+		
+		<div>
+			<h3>Já Possui uma Conta?</h3>
+			<button class="waves-effect waves-teal btn-flat" type="button"><a href="/usuario/login">Log in</a></button>
+			
+		</div>
+	</div>
+</body>
+
+</html>
